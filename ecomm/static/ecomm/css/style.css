@@ -1,0 +1,16 @@
+body {
+    padding-top: 70px;
+}
+.jumbo-color{
+    background-color: rgb(83,81,81);
+}
+.form-control{
+    background-color: rgb(177,168,168);
+}
+.thumbnail{
+	width: 100%;
+	height: 200px;
+	-webkit-box-shadow: -1px -3px 5px -2px rgba(214,214,214,1);
+    -moz-box-shadow: -1px -3px 5px -2px rgba(214,214,214,1);
+    box-shadow: -1px -3px 5px -2px rgba(214,214,214,1);
+}

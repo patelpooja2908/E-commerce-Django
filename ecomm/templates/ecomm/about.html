@@ -1,0 +1,61 @@
+{% extends 'ecomm/base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-lg-8">
+            <div class="card mb-5">
+                <div class="card-body">
+                    <h3 class="card-title">About Us</h3>
+                    <p class="card-text">Welcome to Our E-commerce Store!
+                       We are committed to providing you with high-quality products and excellent customer service. 
+                      If you have any questions or feedback, please feel free to 
+                      <a href="/contact/">contact us.</a></p>
+                    <ul class="list-unstyled">
+                        <li>Email: info@example.com</li>
+                        <li>Phone: +1 123-456-7890</li>
+                        <li>Address: 1234 Main St, City, State, Zip Code</li>
+                        <li>Website: www.example.com</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="card shadow p-3 mb-5 bg-white rounded">
+                <div class="card-body">
+                    <div class="text-center">
+                        <img src="{% static 'ecomm/image/about.jpg' %}" alt="About Us" class="img-fluid rounded mb-4">
+                        <p class="card-text">We are a team of developers passionate about creating innovative solutions. Meet our team members:</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 mb-4">
+                            <div class="card">
+                                <img src="{% static 'ecomm/image/het_1.JPG' %}" class="card-img-top" alt="Team Member 1">
+                                <div class="card-body">
+                                    <h5 class="card-title">Het Patel (23MCA121)</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <div class="card">
+                                <img src="{% static 'ecomm/image/het_2.JPG' %}" class="card-img-top" alt="Team Member 2">
+                                <div class="card-body">
+                                    <h5 class="card-title">Het Patel (23MCA122)</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <div class="card">
+                                <img src="{% static 'ecomm/image/pooja.jpeg' %}" class="card-img-top" alt="Team Member 3">
+                                <div class="card-body">
+                                    <h5 class="card-title">Pooja Patel (23MCA135)</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock content %}
